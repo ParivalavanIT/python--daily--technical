@@ -11,7 +11,7 @@ def fizzbuzz(start,end):
     if start != end :
         return fizzbuzz(start+1,end)
     else:
-        return
+        pass
     
     
 fizzbuzz(1,100)
