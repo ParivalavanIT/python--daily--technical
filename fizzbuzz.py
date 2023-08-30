@@ -1,15 +1,15 @@
-def fizzbuzz(i,j):
-    if i%3==0 and i%5==0:
+def fizzbuzz(start,end):
+    if start%3==0 and start%5==0:
         print ("Fizz Buzz")
-    elif i%3==0 :
+    elif start%3==0 :
         print ("Fizz")
-    elif i%5==0 :
+    elif start%5==0 :
         print ("Buzz")   
     else:
-        print(i)
+        print(start)
      
-    if i!=j :
-        return fizzbuzz(i+1)
+    if start!=end :
+        return fizzbuzz(start+1,end)
     else:
         return
     
