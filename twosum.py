@@ -12,3 +12,10 @@ class Solution:
             num_indices[num] = index
 
         return []
+    
+    
+    solution = Solution()
+    a=[2,3,4,5,6]
+    b=6
+    solution.twosum(a,b)
+    
